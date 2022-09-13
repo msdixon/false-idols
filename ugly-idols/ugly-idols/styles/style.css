@@ -1,0 +1,35 @@
+body, text {
+  color: turquoise;
+  font-family: fantasy;
+  background-image: url("https://i.pinimg.com/originals/44/d3/6c/44d36ccdf2db19d7d777d8f63af80d66.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-color: burlywood;
+  
+}
+
+h1 {
+  color: red;
+  font-family: monospace;
+}
+
+h2 {
+  color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+quote {
+  color: honeydew;
+  font-family: cursive
+  text-indent 100px;
+
+}
+ 
+.box {width: 250px;
+  height: 150px;
+  padding: 10px;
+  border: 6px dashed #333;
+  background: orange;
+
+}
