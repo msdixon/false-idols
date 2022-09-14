@@ -5,13 +5,10 @@
 		},
 		{
 			"path": "../ugly-idols"
-		},
-		{
-			"path": "../assignment 2"
 		}
 	],
 	"settings": {
 		"liveServer.settings.port": 5502,
-		"liveServer.settings.multiRootWorkspaceName": "ugly-idols"
+		"liveServer.settings.multiRootWorkspaceName": "false-idols"
 	}
 }

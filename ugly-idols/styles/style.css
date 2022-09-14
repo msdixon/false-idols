@@ -19,7 +19,7 @@ h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-quote {
+div, quote {
   color: honeydew;
   font-family: cursive
   text-indent 100px;
