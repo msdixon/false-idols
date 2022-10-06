@@ -45,6 +45,7 @@ h2 {
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
+    border: black, 1rem;
     }
 
 .flex-item:nth-child(3) {
@@ -57,6 +58,7 @@ h2 {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
+    border: black, 1rem;
     }
 
 .flex-item:nth-child(4) {
@@ -69,6 +71,7 @@ h2 {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
     align-self: stretch;
+    border: black, 1rem;
     }
 
 .flex-item:nth-child(5) {
@@ -82,3 +85,8 @@ h2 {
     -ms-flex-item-align: stretch;
     align-self: stretch;
     }
+
+.video {
+  margin: 1rm;
+  width: 100%;
+} 
