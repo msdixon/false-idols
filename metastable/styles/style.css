@@ -13,6 +13,55 @@ h2 {
   color: blueviolet;
   font-family: Copperplate, Papyrus, fantasy;
 }
+.container {
+  display:grid;
+  grid-template-columns: repeat(4, [col] 150px) ;
+  grid-template-rows: repeat(2, [row] auto ) ;
+  background-color: #fff;
+  color: #444;
+  grid-template-areas: 
+    "header header header header"
+    "association association . ."
+    ".. video"
+    "association association .."
+    "footer footer footer footer";
+  grid-gap: 10px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+.box .box {
+  background-color: #ccc;
+  color: #444;
+}
+
+.a {
+  grid-area: header;
+  grid-column: col / span 4;
+  grid-row: row;
+}
+
+.b {
+  grid-area: associations;
+  grid-column: col 3 /span 2;
+  grid-row: row;
+}
+
+.c {
+  grid-area: video;
+  
+}
+
+.d {
+  grid-area: footer;
+}
+
+
 
 .flex-container {
   display: flex;
@@ -89,4 +138,5 @@ h2 {
 .video {
   margin: 1rm;
   width: 100%;
+  
 } 
