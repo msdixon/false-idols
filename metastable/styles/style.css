@@ -3,30 +3,15 @@ body, text {
   font-family:'Times New Roman', Times, serif;
   background-image: radial-gradient(purple, pink);
   opacity: .5;
+  margin: 40px;
 }
 
-h1 {
-  color: black;
-  font-family: Copperplate, Papyrus, fantasy;
-}
-
-h2 {
-  color: blueviolet;
-  font-family: Copperplate, Papyrus, fantasy;
-}
 .container {
   display:grid;
-  grid-template-columns: repeat(4, [col] 150px) ;
+  grid-template-columns: repeat(4, [col] 150px ) ;
   grid-template-rows: repeat(2, [row] auto ) ;
   background-color: #fff;
   color: #444;
-  grid-template-areas: 
-    "header header header header"
-    "association association . ."
-    ".. video"
-    "association association .."
-    "footer footer footer footer";
-  grid-gap: 10px;
 }
 
 .box {
@@ -42,33 +27,28 @@ h2 {
 }
 
 .a {
-  grid-area: header;
   grid-column: col / span 4;
   grid-row: row;
 }
 
 .b {
-  grid-area: associations;
-  grid-column: col 3 /span 2;
+  grid-column: col 2 /span 2;
   grid-row: row;
 }
 
 .c {
-  grid-area: video;
   grid-column: col / span 2;
   grid-row: row;
   display:flex;
 }
 
 .d {
-  grid-area: associations;
-  grid-column: col 3 /span 2;
+  grid-column: col 2 /span 2;
   grid-row: row;
   
 }
 
 .e {
-  grid-area: footer;
   grid-column: col / span 4;
   grid-row: row;
 }
@@ -76,5 +56,4 @@ h2 {
 .video {
   margin: 1rm;
   width: 100%;
-  
 } 
