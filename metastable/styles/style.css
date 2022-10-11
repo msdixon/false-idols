@@ -17,7 +17,6 @@ h1 {
   display:grid;
   grid-template-columns: repeat(4, [col] 150px ) ;
   grid-template-rows: repeat(2, [row] auto ) ;
-  background-color: ;
   color: #444;
   opacity: .8;
   grid-gap: 5px, 5px;
@@ -73,7 +72,7 @@ h1 {
 
 .d {
   grid-column: col 1 / 4;
-  grid-row: row 4 /  ;
+  grid-row: row 4;
   display: flex;
   align-items: stretch;
   justify-self: stretch;
