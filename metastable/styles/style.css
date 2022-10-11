@@ -62,7 +62,7 @@ h1 {
 
 .d {
   grid-column: col 1 / 4;
-  grid-row: row 4;
+  grid-row: row 2;
   display: flex;
   align-items: stretch;
   justify-self: stretch;
