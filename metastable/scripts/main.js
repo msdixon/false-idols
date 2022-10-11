@@ -15,13 +15,13 @@ let view = document.getElementById('images-next');
 let close = document.getElementById('images-static');
 
 let open = function() {
-    images-next.style.display = 'block';
-    images-static.style.display = 'block';
+    images-next.style.display , 'block';
+    images-static.style.display , 'block';
 }
 
 let hide = function() {
-    images-next.style.display = 'none';
-    images-static.style.display = 'none';
+    images-next.style.display , 'none';
+    images-static.style.display , 'none';
 }
 
 view.addEventListener('click', open);
