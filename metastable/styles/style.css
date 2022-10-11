@@ -1,6 +1,6 @@
 body, text {
   color: black;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   background-image: radial-gradient(purple, gray, pink);
   margin: 40px;
   padding: 1em 0;
@@ -9,13 +9,15 @@ body, text {
 h1 {
   color: black;
   font-family: Copperplate, Papyrus, fantasy;
-  font-size: x-large
+  font-size: x-large;
+  text-align: center;
 }
 
 .container {
   display:grid;
   grid-template-columns: repeat(4, [col] 150px ) ;
   grid-template-rows: repeat(2, [row] auto ) ;
+  background-color: ;
   color: #444;
   opacity: .8;
   grid-gap: 5px, 5px;
@@ -26,7 +28,7 @@ h1 {
   color: #fff;
   border-radius: 5px;
   border-style: solid;
-  padding: 25px;
+  padding: 15px;
   font-size: 150%;
   overflow: baseline-position;
   align-content: center;
@@ -34,28 +36,35 @@ h1 {
 }
 
 .a {
-  grid-column: col 1 / span 8;
+  grid-column: col 1 / 6;
   grid-row: row 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.b {
-  grid-column: col 2 / span 2;
+/*.b {
+  grid-column: col 1 / span 2;
   grid-row: row 2 / span 2;
   display: flex;
   align-items: stretch;
-  justify-self: stretch;
   justify-content: center;
-  animation-name: image1;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
 }
 
+.b span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+*/
 .c {
-  grid-column: col 4 / span 3;
-  grid-row: row 2 / span 4;
+  grid-column: col 4 / 6;
+  grid-row: row 2 / 5;
   height: auto;
   width: auto;
   align-content: baseline;
@@ -63,16 +72,16 @@ h1 {
 }
 
 .d {
-  grid-column: col 2 / span 2;
-  grid-row: row 4 / span ;
+  grid-column: col 1 / 4;
+  grid-row: row 4 /  ;
   display: flex;
   align-items: stretch;
   justify-self: stretch;
 }
 
 .e {
-  grid-column: col 1 / span 8;
-  grid-row: row 5 / span 1;
+  grid-column: col 1 / 6;
+  grid-row: row 6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,4 +92,3 @@ h1 {
   width: 100%;
   height: 100%;
 } 
-
