@@ -17,6 +17,7 @@ h1 {
   display:grid;
   grid-template-columns: repeat(4, [col] 150px ) ;
   grid-template-rows: repeat(2, [row] auto ) ;
+  background-color: transparent;
   color: #444;
   opacity: .8;
   grid-gap: 5px, 5px;
@@ -42,7 +43,7 @@ h1 {
   justify-content: center;
 }
 
-/*.b {
+.b {
   grid-column: col 1 / span 2;
   grid-row: row 2 / span 2;
   display: flex;
@@ -60,7 +61,7 @@ h1 {
   font-weight: normal;
   color: #dd7732;
 }
-*/
+
 .c {
   grid-column: col 4 / 6;
   grid-row: row 2 / 5;
