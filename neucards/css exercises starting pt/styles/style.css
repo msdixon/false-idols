@@ -32,6 +32,13 @@ body {
   width: 800px;
   display: flex;
 }
+.three {
+  border: 1px solid gray;
+  height: 20%;
+  width: 800px;
+  display: flex;
+}
+
 .four {
   width: 800px;
   height: 80%;
@@ -41,6 +48,14 @@ body {
   flex-wrap:wrap;
   justify-self: baseline;
 }
+
+.five {
+  border: 1px solid gray;
+  height: 20%;
+  width: 800px;
+  display: flex;
+}
+
 .card {
   width: 200px;
   height: 200px;
@@ -51,6 +66,7 @@ body {
   cursor: pointer;
   transition: all .3s ease-in-out;
 }
+
 .card:hover {
   background: blue;
   opacity: .2;
