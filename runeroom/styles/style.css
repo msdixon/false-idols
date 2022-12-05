@@ -9,66 +9,85 @@ html {
 body {
   width: 100vw;
   height: 100vh;
+  background-image: url("runeroom/assets/img/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg");
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1ch;
+  justify-self: center;
+  
 }
 
 .one {
-  border: 1px solid gray;
-  width: 100%;
-  height: 100%;
   display: flex;
+  border: 1px solid gray;
+
+  flex-wrap: wrap;
+  width: viewport-length;
+  height: (1,2);
   justify-content: center;
 }
 
-.two {
-  border: 1px solid gray;
+/* .two {
   height: 100%;
-  width: 800px;
+  width: 80% viewport-length;
   display: flex;
-}
+  grid-row: span;
+  border: 1px solid gray;
+  justify-self: auto;
+  padding: 1px;
+} */
 
 .three {
-  border: 1px solid gray;
-  height: 20%;
-  width: 800px;
-  display: flex;
-}
-.three {
-  border: 1px solid gray;
-  height: 20%;
-  width: 800px;
+  height: 15%;
+  justify-content: center;
+  max-width: viewport-length;
   display: flex;
 }
 
 .four {
-  width: 800px;
-  height: 80%;
-  border: 1px solid red;
+  width: 100%;
+  height: 100%;
   display: flex;
+  margin-top: 1ch;
+  margin-left: 1ch;
   flex-direction: row;
-  flex-wrap:wrap;
-  justify-self: baseline;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-items: stretch;
+  grid-template-columns: repeat(3, 20px [col-start]);
+  grid-template-rows: repeat(2, 20px [row-start]);
 }
 
-.five {
+/* .five {
   border: 1px solid gray;
   height: 20%;
-  width: 800px;
+  max-width: 800ch;
   display: flex;
-}
-
+} */
+/* 
+.six {
+  border: 1px solid gray;
+  height: 10%;
+  max-width: 800ch;
+  display: flex;
+} */
 .card {
   width: 200px;
   height: 200px;
   background: black;
-  margin: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin: 3ch;
+  padding-left: 2ch;
+  padding-right: 2ch;
+  padding-top: 2ch;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+ 
 }
 
-.card:hover {
+/* .card:hover {
   background: blue;
   opacity: .2;
   transform: scale(2,2) skewY(1deg);
-}
+} */
