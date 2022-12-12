@@ -7,17 +7,16 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("runeroom/assets/img/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg");
+  background-image: "runeroom/assets/img/charlesdeluvio-pcZvxrAyYoQ-unsplash.jpg";
 }
 
 .cluster {
   display: flex;
   flex-wrap: wrap;
-  margin: 1ch;
+  position: absolute;
+  margin:10px;
   justify-self: center;
-  
+  justify-content: center;
 }
 
 .one {
@@ -29,8 +28,8 @@ body {
   height: (1,2);
   justify-content: center;
 }
-
-/* .two {
+/* 
+.two {
   height: 100%;
   width: 80% viewport-length;
   display: flex;
@@ -48,7 +47,7 @@ body {
 }
 
 .four {
-  width: 100%;
+  width: viewport-length;
   height: 100%;
   display: flex;
   margin-top: 1ch;
@@ -67,13 +66,14 @@ body {
   max-width: 800ch;
   display: flex;
 } */
-/* 
-.six {
+
+/* .six {
   border: 1px solid gray;
   height: 10%;
   max-width: 800ch;
   display: flex;
 } */
+
 .card {
   width: 200px;
   height: 200px;
@@ -86,8 +86,212 @@ body {
  
 }
 
-/* .card:hover {
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.open {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate((-50%, -50%));
+-ms-transform: translate(-50%, -50%);
+background-color: #f1f1f1;
+color: black;
+font-size: 16px;
+padding: 16px, 30px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+
+}
+.modal {
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:10;
+} 
+
+.modal__container {
+  background-color: transparent;
+  padding: 0px;
+  max-width: 740px;
+  height: 75vh;
+  width: 50%;
+  border-radius: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.modal__header {
+  position: relative;
+  display: block;
+  height: 30px;
+  margin-bottom: 0px;
+  padding: 30px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #D3D3D3;
+}
+
+@supports (display: flex) {
+	
+	.modal__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	  height:initial;
+	}
+	
+}
+
+.modal__title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #00449e;
+  box-sizing: border-box;
+}
+
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}
+
+@supports (display: flex) {
+	
+  .modal__title {
+	  position: static;
+  }
+	
+  .modal__close {
+	  position: static;
+  }
+  
+}
+
+.modal__header .modal__close:before { content: "\2715"; }
+
+.modal-content-content{
+  padding: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #fff;
+}
+
+.modal__content {
+  margin: 0px 0px 20px 0px;
+  color: rgba(0,0,0,.8);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0px 20px 0px 0px;
+} 
+
+.modal__content p {
+  margin-top: 0px;
+}
+
+.modal__btn {
+  font-size: .875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #e6e6e6;
+  color: rgba(0,0,0,.8);
+  border-radius: .25rem;
+  border-style: none;
+  border-width: 0;
+  cursor: pointer;
+  appearance: auto;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  line-height: 1.15;
+  margin: 0;
+  will-change: transform;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: -webkit-transform .25s ease-out;
+  transition: transform .25s ease-out;
+  transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+}
+
+.modal__btn-primary {
+  background-color: #00449e;
+  color: #fff;
+} 
+
+/* custom styles for modal */
+ .modal__container button {
+	outline: none;
+	cursor: pointer !important;
+}
+
+.modal__container h2.modal__title {
+	color: #595959;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #00449e;
+  box-sizing: border-box;
+}
+
+.modal__close {
+  font-size: 24px;
+}
+
+.modal__content {
+  color: rgba(0,0,0,.8);
+}
+
+.modal__btn {
+  padding: 10px 15px;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+} */
+
+.card:hover {
   background: blue;
   opacity: .2;
   transform: scale(2,2) skewY(1deg);
-} */
+}
