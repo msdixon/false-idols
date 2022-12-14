@@ -9,7 +9,6 @@ html {
 
 body {
   height: 100%;
-  background-image: url("https://unsplash.com/photos/CoWcJmbUCWw");
   display: block;
 }
 
@@ -91,8 +90,9 @@ body {
   cursor: auto;
   align-items: center;
   justify-content: stretch;
-  /* background:url('https://unsplash.com/photos/CoWcJmbUCWw') no-repeat center top #FFF; */
-  display:block
+  background-image:url('/runeroom/assets/img/emma-raphael-ttS--i2y9Bo-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
  
 }
 
