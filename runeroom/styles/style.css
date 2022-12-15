@@ -82,7 +82,8 @@ body {
   width: 200px;
   height: 200px;
   display: flex;
-  background: black;
+  border: 1px solid black;
+  background: linear-gradient(to right, rgba(107, 162, 217, 0), rgb(255, 0, 212));
   margin: 3ch;
   padding-left: 2ch;
   padding-right: 2ch;
@@ -90,7 +91,7 @@ body {
   cursor: auto;
   align-items: center;
   justify-content: stretch;
-  background-image:url('/runeroom/assets/img/emma-raphael-ttS--i2y9Bo-unsplash.jpg');
+  /* background-image:url('/runeroom/assets/img/emma-raphael-ttS--i2y9Bo-unsplash.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
  
@@ -102,19 +103,19 @@ body {
 }
 
 .un {
-  background-image:url('/runeroom/assets/img/Slice\ 1.png');
+  background-image:url('/runeroom/assets/img/rune1.png');
 }
 
 .deux {
-  background-image: url('/runeroom/assets/img/Slice\ 2.png');
+  background-image: url('/runeroom/assets/img/rune2.png');
 }
 
 .trois {
-  background-image: url('/runeroom/assets/img/Slice\ 3.png');
+  background-image: url('/runeroom/assets/img/rune3.png');
 }
 
 .quatre {
-  background-image: url('/runeroom/assets/img/Slice\ 4.png');
+  background-image: url('/runeroom/assets/img/rune4.png');
 }
 
 .open {
