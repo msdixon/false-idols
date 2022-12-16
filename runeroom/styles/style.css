@@ -82,7 +82,7 @@ body {
   width: 200px;
   height: 200px;
   display: flex;
-  border: 1px solid black;
+  border: 2px solid black;
   background: linear-gradient(to right, rgba(107, 162, 217, 0), rgb(255, 0, 212));
   margin: 3ch;
   padding-left: 2ch;
@@ -104,6 +104,9 @@ body {
 
 .un {
   background-image:url('/runeroom/assets/img/rune1.png');
+  background-size: 80%;
+  background-color: #fff;
+  justify-content:flex-start
 }
 
 .deux {
@@ -118,6 +121,21 @@ body {
   background-image: url('/runeroom/assets/img/rune4.png');
 }
 
+.cinq {
+  background-image: url('/runeroom/assets/img/rune5.png');
+}
+
+.sixx {
+  background-image: url('/runeroom/assets/img/rune6.png');
+}
+
+.sept {
+  background-image: url('/runeroom/assets/img/rune7.png');
+}
+
+.huit {
+  background-image: url('/runeroom/assets/img/rune8.png');
+}
 .open {
 position: static;
 top: auto;
