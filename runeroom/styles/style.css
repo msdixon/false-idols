@@ -1,67 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700;1,800&display=swap');
 
 html {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  background-color: aquamarine;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(127, 187, 255, 0.384);
 }
 
 body {
   height: 100%;
   display: block;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
 .cluster {
-  display: flex;
   flex-wrap: wrap;
-  position: absolute;
-  margin:10px;
-  justify-self: center;
+  align-content: center;
   justify-content: center;
-  background-image: url("/runeroom/assets/img/li-yang-CoWcJmbUCWw-unsplash.jpg");
+  position: relative;
+  background-image: url("/runeroom/assets/img/bg1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .one {
   display: flex;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.219);
   flex-wrap: wrap;
-  width: viewport-length;
-  height: (1,2);
   justify-content: center;
 }
-/* 
+
 .two {
-  height: 100%;
-  width: 80% viewport-length;
+  height: 85%;
   display: flex;
-  grid-row: span;
-  border: 1px solid gray;
-  justify-self: auto;
   padding: 1px;
-} */
+  justify-content:end;
+}
 
 .three {
+  display: flex;
   height: 15%;
   justify-content: center;
-  max-width: viewport-length;
-  display: flex;
 }
 
 .four {
-  width: viewport-length;
+  display: flex;
+  width: 100%;
   height: 100%;
   display: flex;
-  margin-top: 1ch;
-  margin-left: 1ch;
+  margin: 10px;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-self: center;
-  justify-items: stretch;
-  grid-template-columns: repeat(3, 20px [col-start]);
-  grid-template-rows: repeat(2, 20px [row-start]);
+  /*  */
 }
 
 /* .five {
@@ -90,11 +84,11 @@ body {
   padding-top: 2ch;
   cursor: auto;
   align-items: center;
-  justify-content: stretch;
-  /* background-image:url('/runeroom/assets/img/emma-raphael-ttS--i2y9Bo-unsplash.jpg'); */
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
- 
+  /* background-size: 80%; */
+  background-color: rgb(215, 202, 234, .3);
 }
 
 .card img {
@@ -105,8 +99,7 @@ body {
 .un {
   background-image:url('/runeroom/assets/img/rune1.png');
   background-size: 80%;
-  background-color: #fff;
-  justify-content:flex-start
+
 }
 
 .deux {
@@ -119,6 +112,7 @@ body {
 
 .quatre {
   background-image: url('/runeroom/assets/img/rune4.png');
+
 }
 
 .cinq {
@@ -137,12 +131,11 @@ body {
   background-image: url('/runeroom/assets/img/rune8.png');
 }
 .open {
-position: static;
-top: auto;
-left: auto;
-background-color: blueviolet;
+background-color: rgb(182, 120, 240);
 color: black;
 font-size: 16px;
+font-weight: 600;
+font-family: 'Montserrat', sans-serif;
 border: 1px;
 cursor: pointer;
 border-radius: 5px;
