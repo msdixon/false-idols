@@ -19,11 +19,11 @@ h1 {
 }
 
 .cluster {
-  flex-wrap: wrap;
+
   align-content: center;
   justify-content: center;
   position: relative;
-  background-image: url("/runeroom/assets/img/bg1.jpg");
+  /* background-image: url("/runeroom/assets/img/bg1.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -49,12 +49,16 @@ h1 {
 }
 
 .four {
+  position:relative;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 100%;
   display: flex;
   margin: 10px;
   flex-direction: row;
+  align-content: center;
+  justify-content: center;
   /*  */
 }
 
