@@ -12,6 +12,12 @@ body {
   font-weight: 400;
 }
 
+.rune {
+  font-weight:600;
+  font-size:x-large;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -39,7 +45,10 @@ h1 {
   height: 85%;
   display: flex;
   padding: 1px;
-  justify-content:end;
+  font-size: small;
+  text-align:end;
+  font-kerning: auto;
+  border: 1px dashed gray;
 }
 
 .three {
@@ -62,6 +71,16 @@ h1 {
   /*  */
 }
 
+.cards {
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("/runeroom/assets/img/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 /* .five {
   border: 1px solid gray;
   height: 20%;
@@ -69,12 +88,14 @@ h1 {
   display: flex;
 } */
 
-/* .six {
-  border: 1px solid gray;
-  height: 10%;
+.six {
+  border: 1px dashed gray;
+  height: 20%;
   max-width: 800ch;
   display: flex;
-} */
+  justify-content: center;
+  text-align: center;
+}
 
 .card {
   width: 200px;
@@ -91,8 +112,7 @@ h1 {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-size: 80%; */
-  background-color: rgb(215, 202, 234, .3);
+  background-color: rgb(215, 202, 234, .5);
 }
 
 .card img {
@@ -132,7 +152,7 @@ h1 {
 }
 
 .huit {
-  background-image: url('/runeroom/assets/img/rune8.png');
+  background-image: url('/runeroom/assets/img/rune9.png');
 }
 .open {
 background-color: rgb(182, 120, 240);
