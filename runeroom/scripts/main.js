@@ -1,6 +1,5 @@
-// function cardAction ( {
-//     document.getElementById.card.innerHTML = "hello";
-// })
+document.addEventListener("DOMContentLoaded", function(){console.log('loaded') });
+
 console.log(5 + 6);
 
 MicroModal.init({
