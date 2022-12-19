@@ -75,7 +75,7 @@ h1 {
   align-content: center;
   justify-content: center;
   position: relative;
-  background-image: url("/runeroom/assets/img/bg1.jpg");
+  background-image: url("/false-idols/runeroom/assets/img/bg1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -121,38 +121,38 @@ h1 {
 }
 
 .un {
-  background-image:url('/runeroom/assets/img/rune1.png)');
+  background-image:url('/false-idols/runeroom/assets/img/rune1.png)');
   background-size: 80%;
 
 }
 
 .deux {
-  background-image: url('/runeroom/assets/img/rune2.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune2.png');
 }
 
 .trois {
-  background-image: url('/runeroom/assets/img/rune3.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune3.png');
 }
 
 .quatre {
-  background-image: url('/runeroom/assets/img/rune4.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune4.png');
 
 }
 
 .cinq {
-  background-image: url('/runeroom/assets/img/rune5.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune5.png');
 }
 
 .sixx {
-  background-image: url('/runeroom/assets/img/rune6.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune6.png');
 }
 
 .sept {
-  background-image: url('/runeroom/assets/img/rune7.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune7.png');
 }
 
 .huit {
-  background-image: url('/runeroom/assets/img/rune9.png');
+  background-image: url('/false-idols/runeroom/assets/img/rune9.png');
 }
 .open {
 background-color: rgb(182, 120, 240);
