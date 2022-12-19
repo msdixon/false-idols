@@ -121,7 +121,7 @@ h1 {
 }
 
 .un {
-  background-image:url('/runeroom/assets/img/rune1.png');
+  background-image:url('/runeroom/assets/img/rune1.png)');
   background-size: 80%;
 
 }
