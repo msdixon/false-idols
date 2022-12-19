@@ -10,7 +10,7 @@ console.log("yo");
 // find element for event to be on
 var cardsBackground = document.querySelector(".cards");
 var cards = document.querySelectorAll(".card");
-var backgroundImages = ["/runeroom/assets/img/bg1.jpg/", "/runeroom/assets/img/bg2.jpg", "/runeroom/assets/img/bg3.jpg", "/runeroom/assets/img/bg4.jpg", "/runeroom/assets/img/bg5.jpg", "/runeroom/assets/img/bg8.jpg", "/runeroom/assets/img/bg6.jpg", "/runeroom/assets/img/bg7.jpg", "/runeroom/assets/img/bg9.jpg", "/runeroom/assets/img/bg10.jpg"];
+var backgroundImages = ["runeroom/assets/img/bg1.jpg/", "runeroom/assets/img/bg2.jpg", "/runeroom/assets/img/bg3.jpg", "/runeroom/assets/img/bg4.jpg", "/runeroom/assets/img/bg5.jpg", "/runeroom/assets/img/bg8.jpg", "/runeroom/assets/img/bg6.jpg", "/runeroom/assets/img/bg7.jpg", "/runeroom/assets/img/bg9.jpg", "/runeroom/assets/img/bg10.jpg"];
 cards.forEach(card => {
   card.addEventListener('click', function() {
     var randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
