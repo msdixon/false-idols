@@ -19,18 +19,3 @@ cards.forEach(card => {
   console.log("6+9") ;
   });
 });
-
-// var button = document.querySelector(".cards");
-// button.addEventListener =  ("click", function(){
-
-
-// })
-
-// for (var child of myElement.children) {
-//   console.log(child.tagName);
-// }
-// define event listener function
-// var onButtonClick = function(e) {
-//  document.addEventListener("click", function() {
-//     = backgroundImages[i];}
-// }
