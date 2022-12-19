@@ -75,7 +75,7 @@ h1 {
   align-content: center;
   justify-content: center;
   position: relative;
-  background-image: url("/false-idols/runeroom/assets/img/bg1.jpg");
+  background-image: url('/false-idols/runeroom/assets/img/bg10.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -121,7 +121,7 @@ h1 {
 }
 
 .un {
-  background-image:url('/false-idols/runeroom/assets/img/rune1.png)');
+  background-image:url('/false-idols/runeroom/assets/img/rune1.png');
   background-size: 80%;
 
 }
