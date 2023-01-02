@@ -22,7 +22,7 @@ html {
 .two {
   border: 1px solid gray;
   height: 20%;
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-self:left;
 }
@@ -30,13 +30,13 @@ html {
 .three {
   border: 1px solid gray;
   height: 20%;
-  width: 800px;
+  width: 80%;
   display: flex;
   justify-self: center;
 }
 
 .four {
-  width: 20%;
+  width: 80%;
   height: 80%;
   border: 1px solid gray;
   display: flex;
