@@ -6,10 +6,10 @@ html {
   font-weight: 400;
 }
 
-body {
+/* body {
   width: 100vw;
-  height: 100vh;
-}
+  height: 100vh; */
+/* } */
 
 .one {
   border: 1px solid gray;
@@ -21,9 +21,10 @@ body {
 
 .two {
   border: 1px solid gray;
-  height: 100%;
-  width: 800px;
+  height: 20%;
+  width: 30%;
   display: flex;
+  justify-self:left;
 }
 
 .three {
@@ -31,24 +32,25 @@ body {
   height: 20%;
   width: 800px;
   display: flex;
-}
-.three {
-  border: 1px solid gray;
-  height: 20%;
-  width: 800px;
-  display: flex;
+  justify-self: center;
 }
 
 .four {
-  width: 800px;
+  width: 20%;
   height: 80%;
-  border: 1px solid red;
+  border: 1px solid gray;
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
   justify-self: baseline;
 }
-
+.grid {
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .five {
   border: 1px solid gray;
   height: 20%;
@@ -69,7 +71,7 @@ body {
 .card:hover {
   background: blue;
   opacity: .2;
-  transform: skewY(-50deg) scale(1.1);
+  transform: skewY(-5deg) scale(1.1);
 }
 
 .card-header {
